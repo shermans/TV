@@ -13,9 +13,7 @@
 {"key":"荐片","name":"🎬┃荐片┃fm","api":"csp_Jianpian","type":3,"playerType":"2","ext":"http://api2.rinhome.com","jar":"./spiders/spider_fm.jar"},
 {"key":"nangua","name":"🎃┃南瓜┃fm","type":3,"playerType":"2","api":"./api/ng_open.js","ext":"./api/ng_open.js","jar":"./spiders/spider_fm.jar"},
 {"key":"新视觉","name":"🐦┃视觉┃fm","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.80yy3.com/","jar":"./spiders/spider_fm.jar"},
-{"key":"白嫖","name":"🌅┃白嫖┃fm","type":3,"api":"csp_BaiPiao","playerType":"2","jar":"./spiders/spider_fm.jar"},
-{"key":"玩偶","name":"👽玩偶4Kfty","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.link/","danMu":"弹"},"jar":"./spiders/spider_fty.jar"},
-{"key":"YGP","name":"🚀叨观荐影┃fty","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./spiders/spider_fty.jar"},
+{"key":"白嫖","name":"🌅┃白嫖┃fm","type":3,"api":"csp_BaiPiao","playerType":"2","jar":"./spiders/spider_fm.jar"},{"key":"YGP","name":"🚀叨观荐影┃fty","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./spiders/spider_fty.jar"},
 {"key":"短剧","name":"🌈上头┃fty","type":3,"api":"csp_Djtt","searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
 {"key":"酷看","name":"💡酷看┃fty","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
 {"key":"Lib","name":"🌟立播┃fty","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"},"jar":"./spiders/spider_fty.jar"},
@@ -64,6 +62,7 @@
 {"key":"小学课堂","name":"📚小学┃fty","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./json/小学课堂.json","jar":"./spiders/spider_fty.jar"},
 {"key":"初中课堂","name":"📚初中┃fty","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./json/初中课堂.json","jar":"./spiders/spider_fty.jar"},
 {"key":"高中教育","name":"📚高中┃fty","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./json/高中课堂.json","jar":"./spiders/spider_fty.jar"},
+{"key":"玩偶","name":"👽玩偶4Kfty","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.link/","danMu":"弹"},"jar":"./spiders/spider_fty.jar"},
 {"key":"cc","name":"请勿相信视频中广告","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"changeable":0}
 ]
 }
