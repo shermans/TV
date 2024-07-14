@@ -1,13 +1,9 @@
-//多jar缝合.
+
 {
 "spider": "https://raw.githubusercontent.com/shermans/TV/main/spiders/spider_fty.jar",
 "wallpaper": "https://深色壁纸.xxooo.cf/",
 "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
-//{"lives":[
-//{"name":"live","type":0,"url":"https://raw.githubusercontent.com/shermans/TV/main/lives/live.txt","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"},
-//{"name":"XIUTAN","type":0,"url":"https://raw.githubusercontent.com/shermans/TV/main/lives/XIUTAN.txt","epg":""} 
-//]}
-//拼合学习资料//无广告源//APP源 //官源 //阿里盘 //磁力. 	
+
 "sites":[
 {"key":"豆豆","name":"豆瓣选片","type":3,"api":"csp_DouDou","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"少儿教育","name":"📚少儿┃教育","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"},
