@@ -11,7 +11,7 @@
 {"name":"吾爱","type":0,"playerType":1,"url":"http://52pan.top:81/api/v3/file/get/174969/live.txt?sign=thai3ky1iYk1Y6Qbt9W6XOTSkCAqZF0bbdB9emM1rkY%3D%3A0","ua":"okhttp/3.12.13","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovL+aIkeS4jeaYry7ogqXnjKsubG92ZTo2My9UVi90dnpiLnR4dA=="]},
 {"name":"太阳","type":0,"url":"http://111.67.196.181/zhibo.txt"}
-],
+]，
 
 "sites":[
 {"key":"豆豆","name":"豆瓣选片","type":3,"api":"csp_DouDou","searchable":0,"quickSearch":0,"filterable":0},
@@ -23,7 +23,7 @@
 {"key":"csp_XYQHiker_童趣","name":"🍭童趣","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/播视童趣.json","jar":"./spiders/spider_txb.jar"},
 {"key":"幼儿启蒙","name":"🌏幼儿启蒙","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/幼儿启蒙.json","jar":"./spiders/spider_fty.jar"},
 {"key":"益智","name":"🌏益智┃动画","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./json/益智动画.json","jar":"./spiders/spider_fty.jar"},
-{"key":"幼小衔接","name":"🌏幼小衔接","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/幼小衔接.json","jar":"./spiders/spider_fty.jar"},
+{"key":"幼小衔接","name":"🌏幼小衔接"，"type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/幼小衔接.json","jar":"./spiders/spider_fty.jar"},
 {"key":"小灯塔","name":"🌏小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/小灯塔百科.json","jar":"./spiders/spider_fty.jar"},
 {"key":"小灯塔科学","name":"🌏小灯塔科学","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/小灯塔科学.json","jar":"./spiders/spider_fty.jar"},
 {"key":"小灯塔地理","name":"🌏小灯塔地理","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/小灯塔地理.json","jar":"./spiders/spider_fty.jar"},
@@ -50,7 +50,7 @@
 {"key":"csp_XYQHikerdyx","name":"电影港ymz","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/电影港fty.json","jar":"./spiders/spider_ymz.jar"},
 {"key":"csp_Xb6v","name":"🐤┃6Vfty┃fm","type":3,"api":"csp_Xb6v","playerType":"2","searchable":1,"quickSearch":1,"filterable":1,"jar":"./spiders/spider_fm.jar"},
 {"key":"荐片","name":"🎬荐片┃fm","api":"csp_Jianpian","type":3,"playerType":"2","ext":"http://api2.rinhome.com","jar":"./spiders/spider_fm.jar"},
-{"key":"荐片","name":"🎬荐片┃fm","api":"csp_Jianpian","type":3,"playerType":"2","ext":"http://api2.rinhome.com","jar":"./spiders/spider_fty.jar"},
+{"key":"荐片","name":"🎬荐片┃fty","api":"csp_Jianpian","type":3,"playerType":"2","ext":"http://api2.rinhome.com","jar":"./spiders/spider_fty.jar"},
 {"key":"nangua","name":"🎃南瓜┃fm","type":3,"playerType":"2","api":"./api/ng_open.js","ext":"./api/ng_open.js","jar":"./spiders/spider_fm.jar"},
 {"key":"新视觉","name":"🐦视觉┃fm","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.80yy3.com/","jar":"./spiders/spider_fm.jar"},
 {"key":"白嫖","name":"🌅┃白嫖┃fm","type":3,"api":"csp_BaiPiao","playerType":"2","jar":"./spiders/spider_fm.jar"},{"key":"YGP","name":"🚀叨观荐影┃fty","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0,"jar":"./spiders/spider_fty.jar"},
@@ -72,8 +72,7 @@
 {"key":"萌米","name":"👀萌米┃fty","type":3,"api":"csp_AppTT","timeout":15,"playerType":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg==","jar":"./spiders/spider_fty.jar"},
 {"key":"比特","name":"🍄比特┃fty","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
 {"key":"南瓜","name":"🎃南瓜┃fty","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
-{"key":"Auete","name":"🏝奥特┃fty","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/","jar":"./spiders/spider_fty.jar"},
-{"key":"新6V","name":"🧲新6V┃fm","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/","jar":"./spiders/spider_fm.jar"},
+{"key":"Auete","name":"🏝奥特┃fty","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/","jar":"./spiders/spider_fty.jar"}， 
 {"key":"新6V","name":"🧲新6V┃fty","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/","jar":"./spiders/spider_fty.jar"},
 {"key":"Dm84","name":"🚌巴士┃动漫","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
 {"key":"Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"changeable":1,"jar":"./spiders/spider_fty.jar"},
