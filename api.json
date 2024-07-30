@@ -1,7 +1,7 @@
 {
 "spider":"./spiders/spider_fty.jar",
 "lives":[
-{"name":"feyax3","type":0,"url":"https://files.catbox.moe/feyax3.txt"}，
+{"name":"feyax3","type":0,"url":"https://files.catbox.moe/feyax3.txt"},
 {"name":"live","type":0,"url":"./lives/live.txt","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"},
 {"name":"XIUTAN","type":0,"url":"./lives/XIUTAN.txt","epg":""},
 {"name":"IPV6","type":0,"url":"./lives/IPV6.txt","epg":""},
@@ -23,7 +23,7 @@
 {"key":"csp_XYQHiker_兔小贝","name":"🐰兔小贝","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/兔小贝.json","jar":"./spiders/spider_txb.jar"},
 {"key":"csp_XYQHiker_兔小贝2","name":"🐰兔小贝2","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/兔小贝2.json","jar":"./spiders/spider_txb.jar"},
 {"key":"csp_XYQHiker_童趣","name":"🍭童趣","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/播视童趣.json","jar":"./spiders/spider_txb.jar"},
-{"key":"幼儿启蒙","name":"🌏幼儿启蒙","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/幼儿启蒙.json","jar":"./spiders/spider_fty.jar"},
+{"key":"幼儿启蒙","name":"🌏幼儿启蒙","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/幼儿启蒙.json"，"jar":"./spiders/spider_fty.jar"},
 {"key":"益智","name":"🌏益智┃动画"，"type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":"./json/益智动画.json","jar":"./spiders/spider_fty.jar"},
 {"key":"小灯塔","name":"🌏小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/小灯塔百科.json","jar":"./spiders/spider_fty.jar"},
 {"key":"小灯塔科学","name":"🌏小灯塔科学","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/小灯塔科学.json","jar":"./spiders/spider_fty.jar"},
