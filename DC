@@ -8,8 +8,9 @@
 [ 
 
 {"name":"自用拼合","url":"https://gitee.com/giteegu/TV/raw/main/api.json"},
+{"name":"doki-Ob","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Ob.json"},
 {"name":"doki-Kn","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Kn.json"},
-{"name":"doki-Ko","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Ko.json"},
+{"name":"doki-Ni","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Ni.json"},
 {"name":"🍚饭太硬","url":"http://www.饭太硬.com/tv/"},
 {"name":"🐼肥猫","url":"http://我不是.肥猫.live/接口禁止贩卖"},
 {"name":"小苹果","url":"http://tipu.xjqxz.top/a001.asp"},
