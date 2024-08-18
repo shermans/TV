@@ -1,5 +1,4 @@
-
-•斗鱼「影视」
+•斗鱼「影视」,#genre#
 豆瓣高分,http://live.iill.top/douyu.php?id=8770422
 科幻灾难,http://live.iill.top/douyu.php?id=323876
 华语,http://live.iill.top/douyu.php?id=85894
@@ -28,7 +27,7 @@
 maxyingting,http://live.iill.top/douyu.php?id=4332
 特辑电影,http://live.iill.top/douyu.php?id=3637778
 刘少Runningman,http://live.iill.top/douyu.php?id=131977
-•虎牙「影视」
+•虎牙「影视」,#genre#
 周星星,http://live.iill.top/huya.php?id=11342412
 香港喜剧大全,http://live.iill.top/huya.php?id=23865080
 偷心大盗ヽ龍宝,http://live.iill.top/huya.php?id=11342386
@@ -119,7 +118,7 @@ iTVB大后宫,http://live.iill.top/huya.php?id=23863804
 斗破-萧炎,http://live.iill.top/huya.php?id=29863394
 马春夏秋冬梅,http://live.iill.top/huya.php?id=21059564
 唯爱,http://live.iill.top/huya.php?id=21059567
-•YY「影视」
+•YY「影视」,#genre#
 俺娘田小草,http://live.iill.top/yy.php?id=1382741638
 第一滴血,http://live.iill.top/yy.php?id=1354932355
 功夫,http://live.iill.top/yy.php?id=1354930926
@@ -150,9 +149,9 @@ iTVB大后宫,http://live.iill.top/huya.php?id=23863804
 港片,http://live.iill.top/yy.php?id=1461037999
 宰相,http://live.iill.top/yy.php?id=1353892468
 封神榜,http://live.iill.top/yy.php?id=1356043643
-•B站「影视」
+•B站「影视」,#genre#
 柯南,http://live.iill.top/bilibili.php?id=10375360
-•YouTube「影视」
+•YouTube「影视」,#genre#
 時裝藝術表演²,https://tv.iill.top/youtube/shiftswim
 時裝藝術表演¹,https://tv.iill.top/youtube/NYFT
 時裝藝術表演,https://tv.iill.top/youtube/305miamivisuals
@@ -160,8 +159,7 @@ iTVB大后宫,http://live.iill.top/huya.php?id=23863804
 時裝藝術表演³,https://tv.iill.top/youtube/SPLASHme
 RTHK 香港電台,https://tv.iill.top/youtube/vpw5L69jglk
 RTHK 香港電台,https://tv.iill.top/youtube/巴黎奧運直擊-7月29日賽事(第一部份)
-
-•抖音「娱乐」
+•抖音「娱乐」,#genre#
 Mini kua,http://live.iill.top/douyin.php?id=_Kua_0000
 荏苒☀️⁹⁸⁶⁵,http://live.iill.top/douyin.php?id=rr9865
 和气生財,http://live.iill.top/douyin.php?id=yidinghuifacai66
@@ -184,7 +182,7 @@ Mini kua,http://live.iill.top/douyin.php?id=_Kua_0000
 音乐🎵,http://live.iill.top/douyin.php?id=c729856181
 新月001,http://live.iill.top/douyin.php?id=Mansorry0
 可可努力版🍑,http://live.iill.top/douyin.php?id=Y09168888888
-•虎牙「娱乐」
+•虎牙「娱乐」,#genre#
 微竞-琴琴nice,http://live.iill.top/huya.php?id=913155
 童锦程,http://live.iill.top/huya.php?id=527988
 小小小酷哥,http://live.iill.top/huya.php?id=1995
@@ -195,13 +193,13 @@ JJ斗地主,http://live.iill.top/huya.php?id=14079954
 大蒙香味,http://live.iill.top/huya.php?id=21288462
 挨饿德,http://live.iill.top/huya.php?id=15373958
 梨涡少女mini,http://live.iill.top/huya.php?id=18958242
-•斗鱼「娱乐」
+•斗鱼「娱乐」,#genre#
 蓝翔新三国,http://live.iill.top/douyu.php?id=5908256
 秋月剪水,http://live.iill.top/douyu.php?id=9588891
 叶子户外,http://live.iill.top/douyu.php?id=244548
-•B站「娱乐」
+•B站「娱乐」,#genre#
 铃芽不俐齿,http://live.iill.top/bilibili.php?id=30468649
-•YY「娱乐」
+•YY「娱乐」,#genre#
 大舌头滴百灵鸟,http://live.iill.top/yy.php?id=37331053
 燃舞993,http://live.iill.top/yy.php?id=993
 音乐991,http://live.iill.top/yy.php?id=991
@@ -209,9 +207,9 @@ JJ斗地主,http://live.iill.top/huya.php?id=14079954
 晨一凉小呆,http://live.iill.top/yy.php?id=1462155211
 小艺,http://live.iill.top/yy.php?id=1349422196
 黑衣人,http://live.iill.top/yy.php?id=1354930936
-•BIGO「娱乐」
+•BIGO「娱乐」,#genre#
 「JP」tao🐟𓈒𓂂𓏸,http://live.iill.top/bigo.php?id=877553858
-•Afreeca「娱乐」
+•Afreeca「娱乐」,#genre#
 ʚ 그릴래영,http://live.iill.top/afreeca.php?id=eunyoung1238
 호쿵이와따♥,http://live.iill.top/afreeca.php?id=ghtjd8919
 하리미[♥],http://live.iill.top/afreeca.php?id=hl6260
@@ -244,8 +242,8 @@ BJ홍유,http://live.iill.top/afreeca.php?id=ghddbwls2
 하연잉♥,http://live.iill.top/afreeca.php?id=twinhayoung
 바미♡,http://live.iill.top/afreeca.php?id=gys01083
 ♡도원♡,http://live.iill.top/afreeca.php?id=domangcha13
-•抖音「游戏」
-•虎牙「游戏」
+•抖音「游戏」,#genre#
+•虎牙「游戏」,#genre#
 拉风龙,http://live.iill.top/huya.php?id=88863
 狗婷婷DT,http://live.iill.top/huya.php?id=561014
 老鬼,http://live.iill.top/huya.php?id=705112
@@ -254,7 +252,7 @@ BJ홍유,http://live.iill.top/afreeca.php?id=ghddbwls2
 HSL虎牙超级联赛,http://live.iill.top/huya.php?id=660149
 小龙堡c,http://live.iill.top/huya.php?id=377105
 拼,http://live.iill.top/huya.php?id=837804
-•斗鱼「游戏」
+•斗鱼「游戏」,#genre#
 PIGFF,http://live.iill.top/douyu.php?id=24422
 呆妹儿,http://live.iill.top/douyu.php?id=2947432
 鲷哥,http://live.iill.top/douyu.php?id=88660
@@ -291,7 +289,7 @@ zard1991,http://live.iill.top/douyu.php?id=60937
 17丶Xtreme,http://live.iill.top/douyu.php?id=1886240
 斗鸡dougay,http://live.iill.top/douyu.php?id=2706482
 冬瓜强,http://live.iill.top/douyu.php?id=63136
-•B站「游戏」
+•B站「游戏」,#genre#
 德云社,http://live.iill.top/bilibili.php?id=7777
 两仪滚,http://live.iill.top/bilibili.php?id=388
 FARWAY远芳芳,http://live.iill.top/bilibili.php?id=925378
@@ -299,8 +297,7 @@ B站第五鱼鱼,http://live.iill.top/bilibili.php?id=27781393
 HZS-Lengsa,http://live.iill.top/bilibili.php?id=25452483
 游戏-一米八的坤儿,http://live.iill.top/bilibili.php?id=650
 撸Sir,http://live.iill.top/bilibili.php?id=13233348
-
-•游戏赛事
+•游戏赛事,#genre#
 「B站」CS 2,http://live.iill.top/bilibili.php?id=21622811
 「B站」英雄联盟,http://live.iill.top/bilibili.php?id=6
 「虎牙」英雄联盟 𝟙,http://live.iill.top/huya.php?id=660000
@@ -354,7 +351,7 @@ HZS-Lengsa,http://live.iill.top/bilibili.php?id=25452483
 「斗鱼」火影忍者,http://live.iill.top/douyu.php?id=1997723
 「斗鱼」跑跑卡丁车,http://live.iill.top/douyu.php?id=7722576
 「斗鱼」跑跑卡丁车•手游,http://live.iill.top/douyu.php?id=6672862
-•YouTube「其他」
+•YouTube「其他」,#genre#
 鏡新聞,https://tv.iill.top/youtube/5n0y6b0Q25o
 民視新聞,https://tv.iill.top/youtube/ylYJSBUgaMA
 公視新聞,https://tv.iill.top/youtube/quwqlazU-c8
@@ -365,7 +362,7 @@ TVBS NEWS,https://tv.iill.top/youtube/m_dhMSvUCIc
 kbs,https://tv.iill.top/youtube/https://www.youtube.com/watch?v=OxQQsIvJTTU
 EBC,https://tv.iill.top/youtube/newsebc
 啤梨頻道,https://tv.iill.top/youtube/vnRi1SYA_AE
-•YouTube「娱乐」
+•YouTube「娱乐」,#genre#
 王志安,https://tv.iill.top/youtube/王志安
 guoma,https://tv.iill.top/youtube/guoma
 陈一发,https://tv.iill.top/youtube/@chenyifaer
