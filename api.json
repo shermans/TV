@@ -1,5 +1,5 @@
 {
-    "spider": "./spiders/jar/dokilwss.jar",
+    "spider": "./spiders/spider_fty.jar",
     "wallpaper": "https://api.nguaduot.cn/netbian/random",
     "lives": [
         {"name":"szb","type":0,"url":"./lives/szb.txt"},
