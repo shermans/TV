@@ -7,13 +7,9 @@
 {"urls":
 [ 
 
-{"name":"自用拼合","url":"https://gitee.com/giteegu/TV/raw/main/api.json"},
-{"name":"doki-Ob","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Ob.json"},
-{"name":"doki-Kn","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Kn.json"},
-{"name":"doki-Ni","url":"https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-Ni.json"},
-{"name":"🍚饭太硬","url":"http://www.饭太硬.com/tv/"},
-{"name":"🐼肥猫","url":"http://我不是.肥猫.live/接口禁止贩卖"},
-{"name":"小苹果","url":"http://tipu.xjqxz.top/a001.asp"},
+{"name":"拼合1","url":"https://github.com/shermans/TV/raw/main/api.json"},
+{"name":"拼合2","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/shermans/TV/main/api.json"},
+{"name":"拼合2","url":"https://raw.kkgithub.com/shermans/TV/raw/main/api.json"},
 {"name":"老刘备","url":"https://raw.kkgithub.com/liu673cn/box/main/m.json"}, 
 {"name":"道长","url":"https://pastebin.com/raw/5NHaxyGR"},
 {"name":"吾爱","url":"http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0"},
