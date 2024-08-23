@@ -1,14 +1,14 @@
 //https://github.com/shermans/TV/raw/main/DC
 //https://github.moeyy.xyz/https://github.com/shermans/TV/raw/main/DC
-
+//https://mirror.ghproxy.com/https://github.com/shermans/TV/raw/main/DC
 
 
 {"urls":
 [ 
 
-{"name":"git","url":"https://github.com/shermans/TV/raw/main/api.json"},
-{"name":"mirro","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/shermans/TV/main/api.json"},
-{"name":"moeyy","url":"https://github.moeyy.xyz/https://github.com/shermans/TV/raw/main/api.json"},
+{"name":"0-git","url":"https://github.com/shermans/TV/raw/main/api.json"},
+{"name":"1-mirro","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/shermans/TV/main/api.json"},
+{"name":"2-moeyy","url":"https://github.moeyy.xyz/https://github.com/shermans/TV/raw/main/api.json"},
 {"name":"老刘备","url":"https://raw.kkgithub.com/liu673cn/box/main/m.json"}, 
 {"name":"道长","url":"https://pastebin.com/raw/5NHaxyGR"},
 {"name":"吾爱","url":"http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0"},
