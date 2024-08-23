@@ -6,8 +6,8 @@
 {"urls":
 [ 
 
-{"name":"0-git","url":"https://github.com/shermans/TV/raw/main/api.json"},
-{"name":"1-moeyy","url":"https://github.moeyy.xyz/https://github.com/shermans/TV/raw/main/api.json"},
+{"name":"0-git","url":"https://raw.githubusercontent.com/shermans/TV/main/api.json"},
+{"name":"1-moeyy","url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/shermans/TV/main/api.json"},
 {"name":"2-mirror","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/shermans/TV/main/api.json"},
 {"name":"老刘备","url":"https://raw.kkgithub.com/liu673cn/box/main/m.json"}, 
 {"name":"道长","url":"https://pastebin.com/raw/5NHaxyGR"},
