@@ -428,6 +428,14 @@
 
 
 •电视剧,#genre#
+创世纪,http://m.wuzhij.com/huya.php?id=23749083
+创世纪,http://43.138.170.29:35455/huya/23749083?cdn=txcdn
+创世纪,http://43.138.170.29:35455/huya/23749083?cdn=hscdn
+创世纪,http://43.138.170.29:35455/huya/23749083?cdn=hwcdn
+大时代,http://m.wuzhij.com/huya.php?id=23865161
+大时代,http://43.138.170.29:35455/huya/23865161?cdn=txcdn
+大时代,http://43.138.170.29:35455/huya/23865161?cdn=hscdn
+大时代,http://43.138.170.29:35455/huya/23865161?cdn=hwcdn
 宝莲灯,http://live.iill.top/huya.php?id=21059563
 西游记,http://live.iill.top/huya.php?id=26355861
 封神榜,http://live.iill.top/huya.php?id=23749096
@@ -648,7 +656,7 @@
 解说_冷君说电影,https://live.metshop.top/huya/16739452
 解说_恐怖电影解说,https://live.metshop.top/huya/16741179
 
-•解说,#genre#
+综艺 ,#genre#
 斗鱼MV	,http://live.iill.top/douyu.php?id=3870925
 女团MV	,http://live.iill.top/douyu.php?id=11327316
 世界各地纪录片	,http://live.iill.top/douyu.php?id=8834003
