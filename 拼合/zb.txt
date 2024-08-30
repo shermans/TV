@@ -437,6 +437,18 @@
 大时代,http://43.138.170.29:35455/huya/23865161?cdn=txcdn
 大时代,http://43.138.170.29:35455/huya/23865161?cdn=hscdn
 大时代,http://43.138.170.29:35455/huya/23865161?cdn=hwcdn
+天龙八部黄日华YY,https://live.metshop.top/yy/1351814644
+天龙八部黄日华DY,http://live.iill.top/douyu.php?id=9285904
+神雕侠侣古天乐版,http://cfss.cc/cdn/hy/23865171.flv
+西游续集	,http://live.iill.top/douyu.php?id=3113309
+西游续集	,http://live.iill.top/douyu.php?id=8953746
+西游续集	,http://live.iill.top/huya.php?id=27834853
+雍正王朝,https://live.metshop.top/huya/11342439
+雍正王朝,http://cfss.cc/cdn/hy/11342439.flv
+雍正王朝,http://cfss.cc/cdn/hy/11342439.flv
+雍正王朝,http://m.wuzhij.com/huya.php?id=11342439
+雍正康熙	,http://live.iill.top/douyu.php?id=4808115
+康熙王朝,http://cfss.cc/cdn/hy/11352940.flv
 宝莲灯,http://live.iill.top/huya.php?id=21059563
 西游记,http://live.iill.top/huya.php?id=26355861
 封神榜,http://live.iill.top/huya.php?id=23749096
@@ -452,25 +464,16 @@
 庆余年	,http://live.iill.top/douyu.php?id=5062195
 庆余年	,http://live.iill.top/huya.php?id=11352960
 三国演义	,http://live.iill.top/huya.php?id=11602081
-天龙八部	,http://live.iill.top/douyu.php?id=9285904
-西游续集	,http://live.iill.top/douyu.php?id=3113309
-西游续集	,http://live.iill.top/douyu.php?id=8953746
-西游续集	,http://live.iill.top/huya.php?id=27834853
 新白娘子传奇	,http://live.iill.top/douyu.php?id=11922242
 新三国	,http://live.iill.top/douyu.php?id=12180551
 新三国	,http://live.iill.top/douyu.php?id=12191214
 雪中悍刀行	,http://live.iill.top/huya.php?id=11336592
-雍正康熙	,http://live.iill.top/douyu.php?id=4808115
 越狱	,http://live.iill.top/douyu.php?id=7575350
 封神榜86版,https://live.metshop.top/yy/1353426319
 射雕英雄传83版,https://live.metshop.top/yy/1354210357
 红楼梦87版,https://live.metshop.top/yy/1382745084
-天龙八部黄日华版,https://live.metshop.top/yy/1351814644
-神雕侠侣古天乐版,http://cfss.cc/cdn/hy/23865171.flv
 倚天屠龙记苏有朋版,https://live.metshop.top/yy/1449856066
 鹿鼎记陈小春版,http://cfss.cc/cdn/hy/23865080.flv
-康熙王朝,http://cfss.cc/cdn/hy/11352940.flv
-雍正王朝,http://cfss.cc/cdn/hy/11342439.flv
 雪中悍刀行,https://live.metshop.top/yy/1382660835
 西游记后传,https://live.metshop.top/yy/1382736846
 新白娘子传奇,https://live.metshop.top/yy/1354930969
@@ -481,9 +484,6 @@
 大时代,http://cfss.cc/cdn/hy/23865161.flv
 豆瓣高分,http://epg.112114.xyz/douyu/8770422
 豆瓣高分,http://epg.112114.xyz/douyu/8770422
-剧集_雍正王朝,http://cfss.cc/cdn/hy/11342439.flv
-剧集_雍正王朝,http://cfss.cc/cdn/hy/11342439.flv
-剧集_雍正王朝,https://www.goodiptv.club/huya/11342439
 三国演义94版,http://cfss.cc/cdn/hy/11602081.flv
 新三国演义10版,https://live.metshop.top/yy/23512910
 新水浒传11版,http://cfss.cc/cdn/hy/11342384.flv
@@ -558,7 +558,6 @@
 剧集_新水浒,https://live.metshop.top/huya/11342384
 剧集_纪晓岚,https://live.metshop.top/huya/11342396
 剧集_庆余年,https://live.metshop.top/huya/11352960
-剧集_雍正王朝,https://live.metshop.top/huya/11342439
 剧集_士兵突击,https://live.metshop.top/huya/11342430
 剧集_爱情公寓,https://live.metshop.top/huya/11336726
 剧集_武林外传,https://live.metshop.top/huya/21059598
