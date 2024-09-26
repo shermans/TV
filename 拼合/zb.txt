@@ -117,9 +117,6 @@
 华语电影,http://epg.112114.xyz/douyu/3928
 喜剧电影,http://epg.112114.xyz/douyu/9292492
 不一样的电影,http://epg.112114.xyz/douyu/2632223
-超级鬼片,https://lunbo.freetv.top/yy/1355641195
-经典鬼片,https://lunbo.freetv.top/yy/29460894
-恐怖电影,https://lunbo.freetv.top/yy/24066336
 刘德华,https://live.metshop.top/yy/1382745111
 周星驰,https://live.metshop.top/yy/1354658049
 周星驰,https://live.metshop.top/yy/1382736808
@@ -586,6 +583,7 @@
 
 
 •解说,#genre#
+九叔科幻大片	,http://live.iill.top/douyu.php?id=9348282
 1900影剧室	,http://live.iill.top/douyu.php?id=7796193
 阿斗归来了	,http://live.iill.top/huya.php?id=adgll
 百晓生说剧	,http://live.iill.top/douyu.php?id=9649681
@@ -665,6 +663,11 @@
 
 
 •恐怖片,#genre#  
+
+
+开车大神,http://live.iill.top/douyu.php?id=9759970
+小涛恐怖电影,http://live.iill.top/douyu.php?id=8415464
+龙哥恐怖电影,http://live.iill.top/douyu.php?id=9736161
 林正英,http://live.iill.top/huya.php?id=11342421
 解说_恐怖电影解说,http://live.iill.top/huya.php?id=16741179
 虎牙-林正英,http://live.iill.top/huya.php?id=/11342421
@@ -682,6 +685,9 @@
 YY恐怖电影,https://live.metshop.top/yy/24066336
 恐怖鬼片,https://live.metshop.top/yy/1355485328
 鬼片恐怖片 美女陪你看,https://live.metshop.top/yy/1335509613
+超级鬼片,https://lunbo.freetv.top/yy/1355641195
+经典鬼片,https://lunbo.freetv.top/yy/29460894
+恐怖电影,https://lunbo.freetv.top/yy/24066336
 
 
 
