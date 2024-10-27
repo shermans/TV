@@ -27,21 +27,21 @@
       "playerType": "2",
       "ext": "http://api2.rinhome.com"
   },
+   {
+       "key": "賤賤",
+       "name": "📓賤片┃p2p📓",
+       "type": 3,
+       "jar": "./王二小/spider.jar","api": "csp_WexJianpian",
+       "searchable": 1,
+       "changeable": 1
+   },
        {
-       "key": "荐片",
+       "key": "荐片1",
        "name": "🎦荐片┃秒播",
        "type": 3,
        "jar": "./天天开心/spider.jar","api": "./天天开心/api/drpy2.min.js",
        "ext": "./天天开心/js/jianpian.js"
-   },
-   {
-       "key": "Wexlabi",
-       "name": "💓蜡笔┃4K💓",
-       "type": 3,
-       "jar": "./王二小/spider.jar","api": "csp_Wexlabi",
-       "searchable": 1,
-       "changeable": 1
-   },
+       }， 
   {
     "key": "csp_SP360",
     "name": "📺┃360┃官源",
