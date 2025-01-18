@@ -32,6 +32,12 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
+        }，        {
+            "key": "csp_Nongm",
+            "name": "🌾️┃农民┃影视",
+            "type": 3,
+            "jar": "./肥猫/spider.jar",
+            "api": "csp_Nongm"
         },
         {
             "key": "南瓜",
@@ -925,13 +931,7 @@
             "jar": "./肥猫/spider.jar",
             "api": "csp_SuBaiBai"
         },
-        {
-            "key": "csp_Nongm",
-            "name": "🌾️┃农民┃影视",
-            "type": 3,
-            "jar": "./肥猫/spider.jar",
-            "api": "csp_Nongm"
-        },
+
         {
             "key": "csp_Quanwk",
             "name": "🗺️️┃全网┃影视",
