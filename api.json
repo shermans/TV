@@ -32,7 +32,8 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
-        }，        {
+        },
+        {
             "key": "csp_Nongm",
             "name": "🌾️┃农民┃影视",
             "type": 3,
@@ -40,15 +41,26 @@
             "api": "csp_Nongm"
         },
         {
-            "key": "南瓜",
-            "name": "🎃南瓜┃多线",
+            "key": "糯米",
+            "name": "🍓糯米┃秒播",
             "type": 3,
             "jar": "./饭太硬/spider.jar",
-            "api": "csp_NanGua",
-            "playerType": 2,
+            "api": "csp_Nmyswv",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "热播",
+            "name": "📺热播┃多线",
+            "type": 3,
+            "jar": "./饭太硬/spider.jar",
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
         },
         {
             "key": "萌米",
@@ -61,6 +73,42 @@
             "quickSearch": 1,
             "changeable": 1,
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+        },
+        {
+            "key": "欢视",
+            "name": "👓欢视┃多线",
+            "type": 3,
+            "jar": "./饭太硬/spider.jar",
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8I/B+Qsa7gqa+pU="
+        },
+        {
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
+            "type": 3,
+            "jar": "./饭太硬/spider.jar",
+            "api": "csp_NewCz",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "https://www.czys.pro/"
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜┃多线",
+            "type": 3,
+            "jar": "./饭太硬/spider.jar",
+            "api": "csp_NanGua",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "贱贱",
@@ -90,16 +138,6 @@
             "jar": "./天天开心/spider.jar",
             "api": "./天天开心/api/drpy2.min.js",
             "ext": "./天天开心/js/jianpian.js"
-        },
-        {
-            "key": "csp_SP360",
-            "name": "📺┃360┃官源",
-            "type": 3,
-            "jar": "./肥猫/spider.jar",
-            "api": "csp_SP360",
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1
         },
         {
             "key": "csp_XYQHiker_兔小贝",
@@ -355,50 +393,6 @@
             "jar": "./少儿频道/spider.jar"
         },
         {
-            "key": "腾讯",
-            "name": "🎅🏻 | 腾讯少儿",
-            "type": 3,
-            "api": "./少儿频道/api/drpy2.min.js",
-            "ext": "./少儿频道/js/腾讯.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./少儿频道/spider.jar"
-        },
-        {
-            "key": "芒果",
-            "name": "👼🏻 | 芒果少儿",
-            "type": 3,
-            "api": "./少儿频道/api/drpy2.min.js",
-            "ext": "./少儿频道/js/忙果.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./少儿频道/spider.jar"
-        },
-        {
-            "key": "奇艺",
-            "name": "🧚 | 奇艺少儿",
-            "type": 3,
-            "api": "./少儿频道/api/drpy2.min.js",
-            "ext": "./少儿频道/js/异兽.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./少儿频道/spider.jar"
-        },
-        {
-            "key": "优酷",
-            "name": "🧜‍| 优酷少儿",
-            "type": 3,
-            "api": "./少儿频道/api/drpy2.min.js",
-            "ext": "./少儿频道/js/优酷.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./少儿频道/spider.jar"
-        },
-        {
             "key": "py_cctv_1",
             "name": "🅱️央视-少儿",
             "type": 3,
@@ -498,19 +492,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "厂长",
-            "name": "📔厂长┃不卡",
-            "type": 3,
-            "jar": "./饭太硬/spider.jar",
-            "api": "csp_NewCz",
-            "timeout": 15,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "https://www.czys.pro/"
         },
         {
             "key": "原创",
@@ -931,7 +912,6 @@
             "jar": "./肥猫/spider.jar",
             "api": "csp_SuBaiBai"
         },
-
         {
             "key": "csp_Quanwk",
             "name": "🗺️️┃全网┃影视",
