@@ -4,14 +4,15 @@
     "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
     "lives": [
 
-         {"name": "zbds","type": 0,"url": "https://live.zbds.top/tv/iptv4.txt"},
+ {"name": "zbds","type": 0,"url": "https://live.zbds.top/tv/iptv4.txt"},
 
  {"name": "APTV","type": 0,"url": "https://raw.githubusercontent.com/Kimentanm/aptv/refs/heads/master/m3u/iptv.m3u"},
 
- {"name": "asdjkl6","type": 0,"url": "https://raw.githubusercontent.com/asdjkl6/tv/refs/heads/tv/.m3u/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/%E6%B5%8B%E8%AF%95/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt},
+ {"name": "asdjkl6","type": 0,"url": "https://raw.githubusercontent.com/asdjkl6/tv/refs/heads/tv/.m3u/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/%E6%B5%8B%E8%AF%95/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/kk.txt"},
 
- {"name": "asdOO","type": 0,"url": "https://raw.githubusercontent.com/asdjkl6/tv/refs/heads/tv/.m3u/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/%E6%B5%8B%E8%AF%95/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/oo.txt},
-  {
+ {"name": "asdOO","type": 0,"url": "https://raw.githubusercontent.com/asdjkl6/tv/refs/heads/tv/.m3u/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/%E6%B5%8B%E8%AF%95/%E6%95%B4%E5%A5%97%E7%9B%B4%E6%92%AD%E6%BA%90/oo.txt"}，
+        
+        {
             "name": "CCTV",
             "type": 0,
             "url": "https://raw.githubusercontent.com/Rivens7/Livelist/refs/heads/main/CCTV.m3u"
