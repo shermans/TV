@@ -58,12 +58,13 @@
         }
     ],
     "sites": [
+ 
         {
-            "key": "豆豆",
+            "key": "豆",
             "name": "豆瓣选片",
             "type": 3,
             "jar": "./饭太硬/spider.jar",
-            "api": "csp_DouDou",
+            "api": "csp_DouDouGuard",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0
