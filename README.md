@@ -1,1 +1,1 @@
-clan://localhost/tv/tv.json
+clan://localhost/TV-main/tv.json
