@@ -1,843 +1,157 @@
-{ 
-  "spider":"./jar/fan.txt", 
-  "wallpaper": "https://picsum.photos/1920/1080?grayscale&blur=2",
-  "sites": [
-{"key": "点我切源", "name": "豆瓣选片", "type": 3, "api": "csp_DouDouGuard", "indexs": 1, "searchable": 0, "quickSearch": 0, "changeable": 0, "jar": "./jar/fan.txt"}, 
- 
-{"key": "豆瓣", "name": "🐼┃公众号：熊猫是只肥猫┃", "type": 3, "api": "csp_Douban", "searchable": 0, "jar": "./jar/feimao.png"},
-{"key": "config", "name": "🐼┃配置┃中心", "type": 3, "api": "csp_Config", "playerType": 2, "jar": "./jar/feimao.png"},
 {
-      "key": "py_pynew064guaziapp",
-      "name": "🎬瓜子APP",
-      "type": 3,
-      "api": "./py/py_pynew064guaziapp.py"
-    }, 
-{"key": "瓜子", "name": "👀瓜子┃不卡", "type": 3, "api": "csp_AppgzGuard", "timeout": 15, "playerType": "2", "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},
-{"key": "荐片", "name": "🥝荐片┃多线", "type": 3, "api": "csp_JPJGuard", "timeout": 10, "playerType": 2, "searchable": 1, "quickSearch": 1, "changeable": 0, "jar": "./jar/fan.txt"},
-{"key": "新6V", "name": "🧲新6V┃磁力", "type": 3, "api": "csp_SixVGuard", "timeout": 10, "searchable": 1, "quickSearch": 1, "changeable": 0, "ext": "https://www.xb6v.com/", "jar": "./jar/fan.txt"},
-{"key": "奥特", "name": "🏝奥特┃多线", "type": 3, "api": "csp_AueteGuard", "timeout": 10, "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},
-{"key": "seed", "name": "💡聚剧┃四盘", "type": 3, "api": "csp_SeedhubGuard", "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5", "searchable": 1, "quickSearch": 1, "changeable": 0, "indexs": 0, "jar": "./jar/fan.txt"},
-{"key": "厂长", "name": "📔厂长┃不卡", "type": 3, "api": "csp_NewCzGuard", "timeout": 10, "playerType": 2, "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},   
-{"key": "csp_Gz360", "name": "🍉┃瓜子┃影视", "type": 3, "api": "csp_Gz360", "playerType": 2, "jar": "./jar/feimao.png"},
-{"key": "厂长", "name": "🏭┃厂长┃影视", "type": 3, "playerType": "2", "api": "csp_Czsapp", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.czzy89.com", "jar": "./jar/feimao.png"},
-{"key": "csp_Bili", "name": "🅱┃️哔哩┃合集", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
-{"key": "csp_FirstAid", "name": "🚑┃急救┃教学", "type": 3, "api": "csp_FirstAid", "searchable": 0, "quickSearch": 0, "style": { "type": "rect", "ratio": 3.8 }, "gridview": "0-0-4.1", "jar": "./jar/feimao.png"},
-{"key": "瓜子", "name": "🏀┃瓜子┃体育", "type": 3, "api": "csp_GuaziTY", "style": { "type": "rect", "ratio": 1.333 }, "searchable": 0, "quickSearch": 0, "filterable": 1, "timeout": 12, "order_num": 0, "changeable": 0, "jar": "./jar/feimao.png"},
-{"key": "csp_PanSearch", "name": "🚃┃盘搜┃网盘", "type": 3, "api": "csp_PanSearch", "ext": "http://127.0.0.1:9978/file/fatcat/token.txt", "jar": "./jar/feimao.png"},
-{"key": "csp_少儿", "name": "📚┃少儿┃教育", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
-{"key": "csp_小学", "name": "📚┃小学┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
-{"key": "csp_初中", "name": "📚┃初中┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
-{"key": "csp_高中", "name": "📚┃高中┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
-{"key": "少儿教育", "name": "🧒┆少儿┆教育", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"}, "jar": "./jar/moyu.jar"}, 
-{"key": "小学课堂", "name": "📚┆小学┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"}, "jar": "./jar/moyu.jar"}, 
-{"key": "初中课堂", "name": "📐┆初中┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"}, "jar": "./jar/moyu.jar"}, 
-{"key": "高中教育", "name": "🎓┆高中┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"}, "jar": "./jar/moyu.jar"}, 
-    {
-      "key": "py_dubokuyingshi",
-      "name": "🎬独播库",
-      "type": 3,
-      "api": "./py/py_dubokuyingshi.py"
-    },
-    {
-      "key": "py_ecohubyingshi",
-      "name": "🎬EcoHub影视",
-      "type": 3,
-      "api": "./py/py_ecohubyingshi.py"
-    },
-    {
-      "key": "py_duoyuanjuhe",
-      "name": "🎬多源聚合增强版",
-      "type": 3,
-      "api": "./py/py_duoyuanjuhe.py"
-    },
-    {
-      "key": "py_senlinyingshi",
-      "name": "🎬森林影视",
-      "type": 3,
-      "api": "./py/py_senlinyingshi.py"
-    },
-    {
-      "key": "py_lianggebtyingshi",
-      "name": "🎬两个BT影视",
-      "type": 3,
-      "api": "./py/py_lianggebtyingshi.py",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "py_4kmpyingshi",
-      "name": "🎬4KMP影视",
-      "type": 3,
-      "api": "./py/py_4kmpyingshi.py"
-    },
-    {
-      "key": "py_66dpw",
-      "name": "🎬66dpw",
-      "type": 3,
-      "api": "./py/py_66dpw.py"
-    },
-    {
-      "key": "py_freeokyingshi",
-      "name": "🎬FreeOK影视",
-      "type": 3,
-      "api": "./py/py_freeokyingshi.py"
-    },
-    {
-      "key": "py_pomo4k",
-      "name": "🎬POMO4K",
-      "type": 3,
-      "api": "./py/py_pomo4k.py"
-    },
-    {
-      "key": "py_uvodyingshi",
-      "name": "🎬UVOD影视",
-      "type": 3,
-      "api": "./py/py_uvodyingshi.py"
-    },
-    {
-      "key": "py_vsyingyuan",
-      "name": "🎬VS影院",
-      "type": 3,
-      "api": "./py/py_vsyingyuan.py"
-    },
-    {
-      "key": "py_juok3",
-      "name": "🎬juok3",
-      "type": 3,
-      "api": "./py/py_juok3.py"
-    },
-    {
-      "key": "py_pynew000zip0yingshi",
-      "name": "🎬ZIP0影视",
-      "type": 3,
-      "api": "./py/py_pynew000zip0yingshi.py"
-    },
-    {
-      "key": "py_pynew005cnflix",
-      "name": "🎬CNFLIX",
-      "type": 3,
-      "api": "./py/py_pynew005cnflix.py"
-    },
-    {
-      "key": "py_pynew006zhuiying",
-      "name": "🎬追影",
-      "type": 3,
-      "api": "./py/py_pynew006zhuiying.py"
-    },
-    {
-      "key": "py_pynew007zhuijudaren",
-      "name": "🎬追剧达人",
-      "type": 3,
-      "api": "./py/py_pynew007zhuijudaren.py"
-    },
-    {
-      "key": "py_pynew011zhenlangying",
-      "name": "🎬真狼影视",
-      "type": 3,
-      "api": "./py/py_pynew011zhenlangying.py"
-    },
-    {
-      "key": "py_pynew020xiongdiyings",
-      "name": "🎬兄弟影视",
-      "type": 3,
-      "api": "./py/py_pynew020xiongdiyings.py"
-    },
-    {
-      "key": "py_pynew021xianyuyingsh",
-      "name": "🎬咸鱼影视",
-      "type": 3,
-      "api": "./py/py_pynew021xianyuyingsh.py"
-    },
-    {
-      "key": "py_pynew022xiantengying",
-      "name": "🎬仙腾影院",
-      "type": 3,
-      "api": "./py/py_pynew022xiantengying.py"
-    },
-    {
-      "key": "py_pynew026wujidianying",
-      "name": "🎬无极电影_",
-      "type": 3,
-      "api": "./py/py_pynew026wujidianying.py"
-    },
-    {
-      "key": "py_pynew027weishitv",
-      "name": "🎬威视TV",
-      "type": 3,
-      "api": "./py/py_pynew027weishitv.py"
-    },
-    {
-      "key": "py_pynew029soujuai",
-      "name": "🎬搜剧AI",
-      "type": 3,
-      "api": "./py/py_pynew029soujuai.py"
-    },
-    {
-      "key": "py_pynew032shijueyingyu",
-      "name": "🎬视觉影院",
-      "type": 3,
-      "api": "./py/py_pynew032shijueyingyu.py"
-    },
-    {
-      "key": "py_pynew035saohuoyingsh",
-      "name": "🎬骚火影视",
-      "type": 3,
-      "api": "./py/py_pynew035saohuoyingsh.py"
-    },
-    {
-      "key": "py_pynew039qilinyingshi",
-      "name": "🎬麒麟影视",
-      "type": 3,
-      "api": "./py/py_pynew039qilinyingshi.py"
-    },
-    {
-      "key": "py_pynew040qiyouyingyua",
-      "name": "🎬奇优影院",
-      "type": 3,
-      "api": "./py/py_pynew040qiyouyingyua.py"
-    },
-    {
-      "key": "py_pynew041qidianyingsh",
-      "name": "🎬奇点影视",
-      "type": 3,
-      "api": "./py/py_pynew041qidianyingsh.py"
-    },
-    {
-      "key": "py_pynew042nunuyingyuan",
-      "name": "🎬努努影院",
-      "type": 3,
-      "api": "./py/py_pynew042nunuyingyuan.py"
-    },
-    {
-      "key": "py_pynew043nongminyings",
-      "name": "🎬农民影视",
-      "type": 3,
-      "api": "./py/py_pynew043nongminyings.py"
-    },
-    {
-      "key": "py_pynew044nishipin",
-      "name": "🎬泥视频",
-      "type": 3,
-      "api": "./py/py_pynew044nishipin.py"
-    },
-    {
-      "key": "py_pynew045mofayingshi",
-      "name": "🎬魔法影视",
-      "type": 3,
-      "api": "./py/py_pynew045mofayingshi.py"
-    },
-    {
-      "key": "py_pynew046meijutiantan",
-      "name": "🎬美剧天堂",
-      "type": 3,
-      "api": "./py/py_pynew046meijutiantan.py"
-    },
-    {
-      "key": "py_pynew047maitianyingy",
-      "name": "🎬麦田影院",
-      "type": 3,
-      "api": "./py/py_pynew047maitianyingy.py"
-    },
-    {
-      "key": "py_pynew049kanjuai",
-      "name": "🎬看剧AI",
-      "type": 3,
-      "api": "./py/py_pynew049kanjuai.py"
-    },
-    {
-      "key": "py_pynew052kaiduanyings",
-      "name": "🎬开端影视",
-      "type": 3,
-      "api": "./py/py_pynew052kaiduanyings.py"
-    },
-    {
-      "key": "py_pynew065gongqingchun",
-      "name": "🎬共青春",
-      "type": 3,
-      "api": "./py/py_pynew065gongqingchun.py"
-    },
-    {
-      "key": "py_pynew067fengyeyingyu",
-      "name": "🎬枫叶影院",
-      "type": 3,
-      "api": "./py/py_pynew067fengyeyingyu.py"
-    },
-    {
-      "key": "py_pynew068fengye4k",
-      "name": "🎬枫叶4K",
-      "type": 3,
-      "api": "./py/py_pynew068fengye4k.py"
-    },
-    {
-      "key": "py_pynew071fandaziyings",
-      "name": "🎬饭搭子影视",
-      "type": 3,
-      "api": "./py/py_pynew071fandaziyings.py"
-    },
-    {
-      "key": "py_pynew073duoduoyingsh",
-      "name": "🎬多多影视",
-      "type": 3,
-      "api": "./py/py_pynew073duoduoyingsh.py"
-    },
-    {
-      "key": "py_pynew077douhuayingsh",
-      "name": "🎬豆花影视",
-      "type": 3,
-      "api": "./py/py_pynew077douhuayingsh.py"
-    },
-    {
-      "key": "py_pynew079diekayingshi",
-      "name": "🎬蝶卡影视",
-      "type": 3,
-      "api": "./py/py_pynew079diekayingshi.py"
-    },
-    {
-      "key": "py_pynew083diduanyingsh",
-      "name": "🎬低端影视",
-      "type": 3,
-      "api": "./py/py_pynew083diduanyingsh.py"
-    },
-    {
-      "key": "py_pynew084daishuyingsh",
-      "name": "🎬袋鼠影视",
-      "type": 3,
-      "api": "./py/py_pynew084daishuyingsh.py"
-    },
-    {
-      "key": "py_pynew086damahou",
-      "name": "🎬大马猴",
-      "type": 3,
-      "api": "./py/py_pynew086damahou.py"
-    },
-    {
-      "key": "py_pynew087dabaishaying",
-      "name": "🎬大白鲨影院",
-      "type": 3,
-      "api": "./py/py_pynew087dabaishaying.py"
-    },
-    {
-      "key": "py_pynew089changzhangzi",
-      "name": "🎬厂长资源",
-      "type": 3,
-      "api": "./py/py_pynew089changzhangzi.py"
-    },
-    {
-      "key": "py_pynew091chabeihu",
-      "name": "🎬茶杯狐",
-      "type": 3,
-      "api": "./py/py_pynew091chabeihu.py"
-    },
-    {
-      "key": "py_pynew092caomeiyingsh",
-      "name": "🎬草莓影视",
-      "type": 3,
-      "api": "./py/py_pynew092caomeiyingsh.py"
-    },
-    {
-      "key": "py_pynew094caijijuhe",
-      "name": "🎬采集聚合",
-      "type": 3,
-      "api": "./py/py_pynew094caijijuhe.py"
-    },
-    {
-      "key": "py_pynew096baihuayingyu",
-      "name": "🎬百花影院",
-      "type": 3,
-      "api": "./py/py_pynew096baihuayingyu.py"
-    },
-    {
-      "key": "py_pynew097bajiaojuchan",
-      "name": "🎬芭蕉剧场",
-      "type": 3,
-      "api": "./py/py_pynew097bajiaojuchan.py"
-    },
-    {
-      "key": "py_pynew099baduyingyuan",
-      "name": "🎬八度影院",
-      "type": 3,
-      "api": "./py/py_pynew099baduyingyuan.py"
-    },
-    {
-      "key": "py_pynew100aikanjiqiren",
-      "name": "🎬爱看机器人",
-      "type": 3,
-      "api": "./py/py_pynew100aikanjiqiren.py"
-    },
-    {
-      "key": "py_pynew1016080yingshi",
-      "name": "🎬6080影视",
-      "type": 3,
-      "api": "./py/py_pynew1016080yingshi.py"
-    },
-    {
-      "key": "py_pynew10555yingyuan",
-      "name": "🎬55影院",
-      "type": 3,
-      "api": "./py/py_pynew10555yingyuan.py"
-    },
-    {
-      "key": "py_pynew10630jujiwang",
-      "name": "🎬30剧集网",
-      "type": 3,
-      "api": "./py/py_pynew10630jujiwang.py"
-    },
-    {
-      "key": "py_pynew107fofoyingyuan",
-      "name": "🎬FoFo影院",
-      "type": 3,
-      "api": "./py/py_pynew107fofoyingyuan.py"
-    },
-    {
-      "key": "py_zgtv",
-      "name": "🎬zgtv",
-      "type": 3,
-      "api": "./py/py_zgtv.py"
-    },
-    {
-      "key": "py_ztzsszyingshi",
-      "name": "🎬ztzssz影视",
-      "type": 3,
-      "api": "./py/py_ztzsszyingshi.py"
-    },
-    {
-      "key": "py_yunduoyingshi",
-      "name": "🎬云朵影视",
-      "type": 3,
-      "api": "./py/py_yunduoyingshi.py"
-    },
-    {
-      "key": "py_yunduoshipin",
-      "name": "🎬云朵视频",
-      "type": 3,
-      "api": "./py/py_yunduoshipin.py"
-    },
-    {
-      "key": "py_youkuyingshi",
-      "name": "🎬优酷影视",
-      "type": 3,
-      "api": "./py/py_youkuyingshi.py"
-    },
-    {
-      "key": "py_bajieyingshi",
-      "name": "🎬八戒影视",
-      "type": 3,
-      "api": "./py/py_bajieyingshi.py"
-    },
-    {
-      "key": "py_nongminyingshi",
-      "name": "🎬农民影视",
-      "type": 3,
-      "api": "./py/py_nongminyingshi.py"
-    },
-    {
-      "key": "py_chujianyingshi",
-      "name": "🎬初见影视",
-      "type": 3,
-      "api": "./py/py_chujianyingshi.py"
-    },
-    {
-      "key": "py_juxiafan4kyingshi",
-      "name": "🎬剧下饭4K影视",
-      "type": 3,
-      "api": "./py/py_juxiafan4kyingshi.py"
-    },
-    {
-      "key": "py_changzhangyingshi",
-      "name": "🎬厂长影视",
-      "type": 3,
-      "api": "./py/py_changzhangyingshi.py"
-    },
-    {
-      "key": "py_didayingshi",
-      "name": "🎬嘀嗒影视",
-      "type": 3,
-      "api": "./py/py_didayingshi.py"
-    },
-    {
-      "key": "py_xiariyingyuan",
-      "name": "🎬夏日影院",
-      "type": 3,
-      "api": "./py/py_xiariyingyuan.py"
-    },
-    {
-      "key": "py_duonaoyingyuan",
-      "name": "🎬多瑙影院",
-      "type": 3,
-      "api": "./py/py_duonaoyingyuan.py"
-    },
-    {
-      "key": "py_haojuyingshi",
-      "name": "🎬好剧影视",
-      "type": 3,
-      "api": "./py/py_haojuyingshi.py"
-    },
-    {
-      "key": "py_shanshuiyingyuan",
-      "name": "🎬山水影院",
-      "type": 3,
-      "api": "./py/py_shanshuiyingyuan.py"
-    },
-    {
-      "key": "py_kaixinyingyuan",
-      "name": "🎬开心影院",
-      "type": 3,
-      "api": "./py/py_kaixinyingyuan.py"
-    },
-    {
-      "key": "py_zhizhiyingshi",
-      "name": "🎬枝枝影视",
-      "type": 3,
-      "api": "./py/py_zhizhiyingshi.py"
-    },
-    {
-      "key": "py_yongleshipin",
-      "name": "🎬永乐视频",
-      "type": 3,
-      "api": "./py/py_yongleshipin.py"
-    },
-    {
-      "key": "py_aiqiyiyingshi",
-      "name": "🎬爱奇艺影视",
-      "type": 3,
-      "api": "./py/py_aiqiyiyingshi.py"
-    },
-    {
-      "key": "py_dianyingxia",
-      "name": "🎬电影侠",
-      "type": 3,
-      "api": "./py/py_dianyingxia.py"
-    },
-    {
-      "key": "py_wangfeitv",
-      "name": "🎬网飞TV",
-      "type": 3,
-      "api": "./py/py_wangfeitv.py"
-    },
-    {
-      "key": "py_tengxunshipin",
-      "name": "🎬腾讯视频",
-      "type": 3,
-      "api": "./py/py_tengxunshipin.py"
-    },
-    {
-      "key": "py_liangziziyuan",
-      "name": "🎬量子资源",
-      "type": 3,
-      "api": "./py/py_liangziziyuan.py"
-    },
-    {
-      "key": "py_qingwayingyuan",
-      "name": "🎬青蛙影院",
-      "type": 3,
-      "api": "./py/py_qingwayingyuan.py"
-    },
-    {
-      "key": "py_hanxiaoquan",
-      "name": "🎬韩小圈",
-      "type": 3,
-      "api": "./py/py_hanxiaoquan.py"
-    },
-    {
-      "key": "py_feiniuyingshi",
-      "name": "🎬飞牛影视",
-      "type": 3,
-      "api": "./py/py_feiniuyingshi.py"
-    },
-    {
-      "key": "py_99duanjuwang",
-      "name": "📱99短剧网",
-      "type": 3,
-      "api": "./py/py_99duanjuwang.py"
-    },
-    {
-      "key": "py_pynew012zaixianduanj",
-      "name": "📱在线短剧",
-      "type": 3,
-      "api": "./py/py_pynew012zaixianduanj.py"
-    },
-    {
-      "key": "py_pynew015yingkeduanju",
-      "name": "📱映刻短剧",
-      "type": 3,
-      "api": "./py/py_pynew015yingkeduanju.py"
-    },
-    {
-      "key": "py_pynew024xifuduanju",
-      "name": "📱喜福短剧",
-      "type": 3,
-      "api": "./py/py_pynew024xifuduanju.py"
-    },
-    {
-      "key": "py_pynew025wushengduanj",
-      "name": "📱悟圣短剧",
-      "type": 3,
-      "api": "./py/py_pynew025wushengduanj.py"
-    },
-    {
-      "key": "py_pynew030shuabutingdu",
-      "name": "📱刷不停短剧",
-      "type": 3,
-      "api": "./py/py_pynew030shuabutingdu.py"
-    },
-    {
-      "key": "py_pynew033shiliuduanju",
-      "name": "📱石榴短剧",
-      "type": 3,
-      "api": "./py/py_pynew033shiliuduanju.py"
-    },
-    {
-      "key": "py_pynew051kaixinduanju",
-      "name": "📱开心短剧",
-      "type": 3,
-      "api": "./py/py_pynew051kaixinduanju.py"
-    },
-    {
-      "key": "py_pynew058hongdouduanj",
-      "name": "📱红豆短剧",
-      "type": 3,
-      "api": "./py/py_pynew058hongdouduanj.py"
-    },
-    {
-      "key": "py_pynew074duanjudaquan",
-      "name": "📱短剧大全",
-      "type": 3,
-      "api": "./py/py_pynew074duanjudaquan.py"
-    },
-    {
-      "key": "py_pynew076dusheduanju",
-      "name": "📱毒舌短剧",
-      "type": 3,
-      "api": "./py/py_pynew076dusheduanju.py"
-    },
-    {
-      "key": "py_pynew085daxiangduanj",
-      "name": "📱大象短剧",
-      "type": 3,
-      "api": "./py/py_pynew085daxiangduanj.py"
-    },
-    {
-      "key": "py_pynew093canchiduanju",
-      "name": "📱蚕驰短剧",
-      "type": 3,
-      "api": "./py/py_pynew093canchiduanju.py"
-    },
-    {
-      "key": "py_wuwuduanju",
-      "name": "📱五五短剧",
-      "type": 3,
-      "api": "./py/py_wuwuduanju.py"
-    },
-    {
-      "key": "py_wuwuduanju2",
-      "name": "📱五五短剧2",
-      "type": 3,
-      "api": "./py/py_wuwuduanju2.py"
-    },
-    {
-      "key": "py_guoguoduanju",
-      "name": "📱果果短剧",
-      "type": 3,
-      "api": "./py/py_guoguoduanju.py"
-    },
-    {
-      "key": "py_hemaduanju",
-      "name": "📱河马短剧",
-      "type": 3,
-      "api": "./py/py_hemaduanju.py"
-    },
-    {
-      "key": "py_hemaduanju_2",
-      "name": "📱河马短剧",
-      "type": 3,
-      "api": "./py/py_hemaduanju_2.py"
-    },
-    {
-      "key": "py_niuniuduanju",
-      "name": "📱牛牛短剧",
-      "type": 3,
-      "api": "./py/py_niuniuduanju.py"
-    },
-    {
-      "key": "py_duanjubashi",
-      "name": "📱短剧巴士",
-      "type": 3,
-      "api": "./py/py_duanjubashi.py"
-    },
-    {
-      "key": "py_duanjuwang",
-      "name": "📱短剧网",
-      "type": 3,
-      "api": "./py/py_duanjuwang.py"
-    },
-    {
-      "key": "py_dijiuduanjuwang",
-      "name": "📱第九短剧网",
-      "type": 3,
-      "api": "./py/py_dijiuduanjuwang.py"
-    },
-    {
-      "key": "py_pynew003mifundongman",
-      "name": "🎌MiFun动漫",
-      "type": 3,
-      "api": "./py/py_pynew003mifundongman.py"
-    },
-    {
-      "key": "py_pynew017yingzhikongd",
-      "name": "🎌樱之空动漫",
-      "type": 3,
-      "api": "./py/py_pynew017yingzhikongd.py"
-    },
-    {
-      "key": "py_pynew059heimaodongma",
-      "name": "🎌黑猫动漫",
-      "type": 3,
-      "api": "./py/py_pynew059heimaodongma.py"
-    },
-    {
-      "key": "py_pynew066gongheguodon",
-      "name": "🎌共和国动漫",
-      "type": 3,
-      "api": "./py/py_pynew066gongheguodon.py"
-    },
-    {
-      "key": "py_dongmanbashi",
-      "name": "🎌动漫巴士",
-      "type": 3,
-      "api": "./py/py_dongmanbashi.py"
-    },
-    {
-      "key": "py_hamiguadongman",
-      "name": "🎌哈密瓜动漫",
-      "type": 3,
-      "api": "./py/py_hamiguadongman.py"
-    },
-    {
-      "key": "py_qingkongciyuan",
-      "name": "🎌青空次元",
-      "type": 3,
-      "api": "./py/py_qingkongciyuan.py"
-    },
-    {
-      "key": "py_djyouyou2",
-      "name": "🎵DJ呦呦2",
-      "type": 3,
-      "api": "./py/py_djyouyou2.py"
-    },
-    {
-      "key": "py_djyouyouyinyue",
-      "name": "🎵DJ呦呦音乐",
-      "type": 3,
-      "api": "./py/py_djyouyouyinyue.py"
-    },
-    {
-      "key": "py_pynew004djyouyou",
-      "name": "🎵DJ呦呦",
-      "type": 3,
-      "api": "./py/py_pynew004djyouyou.py"
-    },
-    {
-      "key": "py_pynew016yingziyinyue",
-      "name": "🎵影子音乐",
-      "type": 3,
-      "api": "./py/py_pynew016yingziyinyue.py"
-    },
-    {
-      "key": "py_pynew069fengyeyinyue",
-      "name": "🎵枫叶音乐",
-      "type": 3,
-      "api": "./py/py_pynew069fengyeyinyue.py"
-    },
-    {
-      "key": "py_qianqianyinyue",
-      "name": "🎵千千音乐",
-      "type": 3,
-      "api": "./py/py_qianqianyinyue.py"
-    },
-    {
-      "key": "py_tingyoufm",
-      "name": "🎵听友FM",
-      "type": 3,
-      "api": "./py/py_tingyoufm.py"
-    },
-    {
-      "key": "py_yuetingba",
-      "name": "🎵悦听吧",
-      "type": 3,
-      "api": "./py/py_yuetingba.py"
-    },
-    {
-      "key": "py_aitingyinyue",
-      "name": "🎵爱听音乐",
-      "type": 3,
-      "api": "./py/py_aitingyinyue.py"
-    },
-    {
-      "key": "py_kuwoyinyue",
-      "name": "🎵酷我音乐",
-      "type": 3,
-      "api": "./py/py_kuwoyinyue.py"
-    },
-    {
-      "key": "py_yinyuejuhe",
-      "name": "🎵音乐聚合",
-      "type": 3,
-      "api": "./py/py_yinyuejuhe.py"
-    },
-    {
-      "key": "py_pynew019xiongmaozhib",
-      "name": "📺熊猫直播",
-      "type": 3,
-      "api": "./py/py_pynew019xiongmaozhib.py"
-    },
-    {
-      "key": "py_pynew054juhezhibo",
-      "name": "📺聚合直播",
-      "type": 3,
-      "api": "./py/py_pynew054juhezhibo.py"
-    },
-    {
-      "key": "py_pynew095bilizhibo",
-      "name": "📺哔哩直播",
-      "type": 3,
-      "api": "./py/py_pynew095bilizhibo.py"
-    },
-    {
-      "key": "py_kafeizhibo",
-      "name": "📺咖啡直播",
-      "type": 3,
-      "api": "./py/py_kafeizhibo.py"
-    }
-
-],
- "parses": [ 
-{"name": "Json聚合", "type": 3, "url": "Demo" }, 
-{"name": "Web聚合", "type": 3, "url": "Web" }
-  ]
-,
-  "rules": [
-    {"name": "cdn.ryplay","hosts": ["cdn.ryplay"],"regex": ["5.480000","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-    {"name": "农民","hosts": ["toutiaovod.com"],"regex": ["video/tos/cn"]},
-    {"name": "火山","hosts": ["huoshan.com"],"regex": ["item_id="]},
-    {"name": "抖音","hosts": ["douyin.com"],"regex": ["is_play_url="]},
-    {"name": "磁力广告","hosts": ["magnet"],"regex": ["更多","请访问","example","社 區","x u u","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
-    {"name": "饭团点击","hosts": ["dadagui","freeok","dadagui"],"script": ["document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"]},
-    {"name": "毛驴点击","hosts": ["www.maolvys.com"],"script": ["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]}
-   
-],
-  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
-  "hosts": [
-  "img1.wsyzy.org=fan.cloudflare.182682.xyz",
-  "fiizvfck.top=fan.cloudflare.182682.xyz",
-  "images.67c6c7a.com=fan.cloudflare.182682.xyz"
-],
- "lives": [
-    {"name": "Kimentanm","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
-    {"name": "综合直播","type": 0,"url": "http://193.123.86.190:14888/TV/iptv.php","ua": "bingcha/1.1 (mianfeifenxiang)","playerType": 2},
-    {"name": "范明明（需开启V6网络）","type": 0,"url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType": 2},
-    {"name": "虎牙一起看","type": 0,"url": "https://sub.ottiptv.cc/huyayqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "B站直播","type": 0,"url": "https://file.icve.com.cn/file_doc/220/1003/370FAE41BD301F89BA1FCD6FDB8D5BD6.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "YY轮播","type": 0,"url": "https://sub.ottiptv.cc/yylunbo.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"}
+  "sites": [
+    {"key": "点我切源", "name": "豆瓣选片", "type": 3, "api": "csp_DouDouGuard", "indexs": 1, "searchable": 0, "quickSearch": 0, "changeable": 0, "jar": "./jar/fan.txt"},
+    {"key": "豆瓣", "name": "豆瓣", "type": 3, "api": "csp_Douban", "searchable": 0, "jar": "./jar/feimao.png"},
+    {"key": "config", "name": "🐼┃配置┃中心", "type": 3, "api": "csp_Config", "playerType": 2, "jar": "./jar/feimao.png"},
+    {"key": "py_pynew064guaziapp", "name": "🎬瓜子APP", "type": 3, "api": "./py/py_pynew064guaziapp.py"},
+    {"key": "瓜子", "name": "👀瓜子┃不卡", "type": 3, "api": "csp_AppgzGuard", "timeout": 15, "playerType": "2", "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},
+    {"key": "荐片", "name": "🥝荐片┃多线", "type": 3, "api": "csp_JPJGuard", "timeout": 10, "playerType": 2, "searchable": 1, "quickSearch": 1, "changeable": 0, "jar": "./jar/fan.txt"},
+    {"key": "新6V", "name": "🧲新6V┃磁力", "type": 3, "api": "csp_SixVGuard", "timeout": 10, "searchable": 1, "quickSearch": 1, "changeable": 0, "ext": "https://www.xb6v.com/", "jar": "./jar/fan.txt"},
+    {"key": "奥特", "name": "🏝奥特┃多线", "type": 3, "api": "csp_AueteGuard", "timeout": 10, "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},
+    {"key": "seed", "name": "💡聚剧┃四盘", "type": 3, "api": "csp_SeedhubGuard", "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5", "searchable": 1, "quickSearch": 1, "changeable": 0, "indexs": 0, "jar": "./jar/fan.txt"},
+    {"key": "厂长", "name": "📔厂长┃不卡", "type": 3, "api": "csp_NewCzGuard", "timeout": 10, "playerType": 2, "searchable": 1, "quickSearch": 1, "changeable": 1, "jar": "./jar/fan.txt"},
+    {"key": "csp_Gz360", "name": "🍉┃瓜子┃影视", "type": 3, "api": "csp_Gz360", "playerType": 2, "jar": "./jar/feimao.png"},
+    {"key": "厂长", "name": "🏭┃厂长┃影视", "type": 3, "playerType": "2", "api": "csp_Czsapp", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.czzy89.com", "jar": "./jar/feimao.png"},
+    {"key": "csp_Bili", "name": "🅱┃️哔哩┃合集", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
+    {"key": "csp_FirstAid", "name": "🚑┃急救┃教学", "type": 3, "api": "csp_FirstAid", "searchable": 0, "quickSearch": 0, "style": { "type": "rect", "ratio": 3.8 }, "gridview": "0-0-4.1", "jar": "./jar/feimao.png"},
+    {"key": "瓜子", "name": "🏀┃瓜子┃体育", "type": 3, "api": "csp_GuaziTY", "style": { "type": "rect", "ratio": 1.333 }, "searchable": 0, "quickSearch": 0, "filterable": 1, "timeout": 12, "order_num": 0, "changeable": 0, "jar": "./jar/feimao.png"},
+    {"key": "csp_PanSearch", "name": "🚃┃盘搜┃网盘", "type": 3, "api": "csp_PanSearch", "ext": "http://127.0.0.1:9978/file/fatcat/token.txt", "jar": "./jar/feimao.png"},
+    {"key": "csp_少儿", "name": "📚┃少儿┃教育", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
+    {"key": "csp_小学", "name": "📚┃小学┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
+    {"key": "csp_初中", "name": "📚┃初中┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
+    {"key": "csp_高中", "name": "📚┃高中┃课堂", "type": 3, "api": "csp_Bili", "playerType": 2, "ext": { "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null", "cookie": "" }, "style": { "type": "rect", "ratio": 1.333 }, "jar": "./jar/feimao.png"},
+    {"key": "少儿教育", "name": "🧒┆少儿┆教育", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"}, "jar": "./jar/moyu.jar"},
+    {"key": "小学课堂", "name": "📚┆小学┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"}, "jar": "./jar/moyu.jar"},
+    {"key": "初中课堂", "name": "📐┆初中┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"}, "jar": "./jar/moyu.jar"},
+    {"key": "高中教育", "name": "🎓┆高中┆课堂", "type": 3, "api": "csp_Bili", "style": {"type": "rect", "ratio": 1.597}, "searchable": 0, "quickSearch": 0, "changeable": 0, "ext": {"json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"}, "jar": "./jar/moyu.jar"},
+    {"key": "py_dubokuyingshi", "name": "🎬独播库", "type": 3, "api": "./py/py_dubokuyingshi.py"},
+    {"key": "py_ecohubyingshi", "name": "🎬EcoHub影视", "type": 3, "api": "./py/py_ecohubyingshi.py"},
+    {"key": "py_duoyuanjuhe", "name": "🎬多源聚合增强版", "type": 3, "api": "./py/py_duoyuanjuhe.py"},
+    {"key": "py_senlinyingshi", "name": "🎬森林影视", "type": 3, "api": "./py/py_senlinyingshi.py"},
+    {"key": "py_lianggebtyingshi", "name": "🎬两个BT影视", "type": 3, "api": "./py/py_lianggebtyingshi.py", "searchable": 1, "changeable": 1},
+    {"key": "py_4kmpyingshi", "name": "🎬4KMP影视", "type": 3, "api": "./py/py_4kmpyingshi.py"},
+    {"key": "py_66dpw", "name": "🎬66dpw", "type": 3, "api": "./py/py_66dpw.py"},
+    {"key": "py_freeokyingshi", "name": "🎬FreeOK影视", "type": 3, "api": "./py/py_freeokyingshi.py"},
+    {"key": "py_pomo4k", "name": "🎬POMO4K", "type": 3, "api": "./py/py_pomo4k.py"},
+    {"key": "py_uvodyingshi", "name": "🎬UVOD影视", "type": 3, "api": "./py/py_uvodyingshi.py"},
+    {"key": "py_vsyingyuan", "name": "🎬VS影院", "type": 3, "api": "./py/py_vsyingyuan.py"},
+    {"key": "py_juok3", "name": "🎬juok3", "type": 3, "api": "./py/py_juok3.py"},
+    {"key": "py_pynew000zip0yingshi", "name": "🎬ZIP0影视", "type": 3, "api": "./py/py_pynew000zip0yingshi.py"},
+    {"key": "py_pynew005cnflix", "name": "🎬CNFLIX", "type": 3, "api": "./py/py_pynew005cnflix.py"},
+    {"key": "py_pynew006zhuiying", "name": "🎬追影", "type": 3, "api": "./py/py_pynew006zhuiying.py"},
+    {"key": "py_pynew007zhuijudaren", "name": "🎬追剧达人", "type": 3, "api": "./py/py_pynew007zhuijudaren.py"},
+    {"key": "py_pynew011zhenlangying", "name": "🎬真狼影视", "type": 3, "api": "./py/py_pynew011zhenlangying.py"},
+    {"key": "py_pynew020xiongdiyings", "name": "🎬兄弟影视", "type": 3, "api": "./py/py_pynew020xiongdiyings.py"},
+    {"key": "py_pynew021xianyuyingsh", "name": "🎬咸鱼影视", "type": 3, "api": "./py/py_pynew021xianyuyingsh.py"},
+    {"key": "py_pynew022xiantengying", "name": "🎬仙腾影院", "type": 3, "api": "./py/py_pynew022xiantengying.py"},
+    {"key": "py_pynew026wujidianying", "name": "🎬无极电影_", "type": 3, "api": "./py/py_pynew026wujidianying.py"},
+    {"key": "py_pynew027weishitv", "name": "🎬威视TV", "type": 3, "api": "./py/py_pynew027weishitv.py"},
+    {"key": "py_pynew029soujuai", "name": "🎬搜剧AI", "type": 3, "api": "./py/py_pynew029soujuai.py"},
+    {"key": "py_pynew032shijueyingyu", "name": "🎬视觉影院", "type": 3, "api": "./py/py_pynew032shijueyingyu.py"},
+    {"key": "py_pynew035saohuoyingsh", "name": "🎬骚火影视", "type": 3, "api": "./py/py_pynew035saohuoyingsh.py"},
+    {"key": "py_pynew039qilinyingshi", "name": "🎬麒麟影视", "type": 3, "api": "./py/py_pynew039qilinyingshi.py"},
+    {"key": "py_pynew040qiyouyingyua", "name": "🎬奇优影院", "type": 3, "api": "./py/py_pynew040qiyouyingyua.py"},
+    {"key": "py_pynew041qidianyingsh", "name": "🎬奇点影视", "type": 3, "api": "./py/py_pynew041qidianyingsh.py"},
+    {"key": "py_pynew042nunuyingyuan", "name": "🎬努努影院", "type": 3, "api": "./py/py_pynew042nunuyingyuan.py"},
+    {"key": "py_pynew043nongminyings", "name": "🎬农民影视", "type": 3, "api": "./py/py_pynew043nongminyings.py"},
+    {"key": "py_pynew044nishipin", "name": "🎬泥视频", "type": 3, "api": "./py/py_pynew044nishipin.py"},
+    {"key": "py_pynew045mofayingshi", "name": "🎬魔法影视", "type": 3, "api": "./py/py_pynew045mofayingshi.py"},
+    {"key": "py_pynew046meijutiantan", "name": "🎬美剧天堂", "type": 3, "api": "./py/py_pynew046meijutiantan.py"},
+    {"key": "py_pynew047maitianyingy", "name": "🎬麦田影院", "type": 3, "api": "./py/py_pynew047maitianyingy.py"},
+    {"key": "py_pynew049kanjuai", "name": "🎬看剧AI", "type": 3, "api": "./py/py_pynew049kanjuai.py"},
+    {"key": "py_pynew052kaiduanyings", "name": "🎬开端影视", "type": 3, "api": "./py/py_pynew052kaiduanyings.py"},
+    {"key": "py_pynew065gongqingchun", "name": "🎬共青春", "type": 3, "api": "./py/py_pynew065gongqingchun.py"},
+    {"key": "py_pynew067fengyeyingyu", "name": "🎬枫叶影院", "type": 3, "api": "./py/py_pynew067fengyeyingyu.py"},
+    {"key": "py_pynew068fengye4k", "name": "🎬枫叶4K", "type": 3, "api": "./py/py_pynew068fengye4k.py"},
+    {"key": "py_pynew071fandaziyings", "name": "🎬饭搭子影视", "type": 3, "api": "./py/py_pynew071fandaziyings.py"},
+    {"key": "py_pynew073duoduoyingsh", "name": "🎬多多影视", "type": 3, "api": "./py/py_pynew073duoduoyingsh.py"},
+    {"key": "py_pynew077douhuayingsh", "name": "🎬豆花影视", "type": 3, "api": "./py/py_pynew077douhuayingsh.py"},
+    {"key": "py_pynew079diekayingshi", "name": "🎬蝶卡影视", "type": 3, "api": "./py/py_pynew079diekayingshi.py"},
+    {"key": "py_pynew083diduanyingsh", "name": "🎬低端影视", "type": 3, "api": "./py/py_pynew083diduanyingsh.py"},
+    {"key": "py_pynew084daishuyingsh", "name": "🎬袋鼠影视", "type": 3, "api": "./py/py_pynew084daishuyingsh.py"},
+    {"key": "py_pynew086damahou", "name": "🎬大马猴", "type": 3, "api": "./py/py_pynew086damahou.py"},
+    {"key": "py_pynew087dabaishaying", "name": "🎬大白鲨影院", "type": 3, "api": "./py/py_pynew087dabaishaying.py"},
+    {"key": "py_pynew089changzhangzi", "name": "🎬厂长资源", "type": 3, "api": "./py/py_pynew089changzhangzi.py"},
+    {"key": "py_pynew091chabeihu", "name": "🎬茶杯狐", "type": 3, "api": "./py/py_pynew091chabeihu.py"},
+    {"key": "py_pynew092caomeiyingsh", "name": "🎬草莓影视", "type": 3, "api": "./py/py_pynew092caomeiyingsh.py"},
+    {"key": "py_pynew094caijijuhe", "name": "🎬采集聚合", "type": 3, "api": "./py/py_pynew094caijijuhe.py"},
+    {"key": "py_pynew096baihuayingyu", "name": "🎬百花影院", "type": 3, "api": "./py/py_pynew096baihuayingyu.py"},
+    {"key": "py_pynew097bajiaojuchan", "name": "🎬芭蕉剧场", "type": 3, "api": "./py/py_pynew097bajiaojuchan.py"},
+    {"key": "py_pynew099baduyingyuan", "name": "🎬八度影院", "type": 3, "api": "./py/py_pynew099baduyingyuan.py"},
+    {"key": "py_pynew100aikanjiqiren", "name": "🎬爱看机器人", "type": 3, "api": "./py/py_pynew100aikanjiqiren.py"},
+    {"key": "py_pynew1016080yingshi", "name": "🎬6080影视", "type": 3, "api": "./py/py_pynew1016080yingshi.py"},
+    {"key": "py_pynew10555yingyuan", "name": "🎬55影院", "type": 3, "api": "./py/py_pynew10555yingyuan.py"},
+    {"key": "py_pynew10630jujiwang", "name": "🎬30剧集网", "type": 3, "api": "./py/py_pynew10630jujiwang.py"},
+    {"key": "py_pynew107fofoyingyuan", "name": "🎬FoFo影院", "type": 3, "api": "./py/py_pynew107fofoyingyuan.py"},
+    {"key": "py_zgtv", "name": "🎬zgtv", "type": 3, "api": "./py/py_zgtv.py"},
+    {"key": "py_ztzsszyingshi", "name": "🎬ztzssz影视", "type": 3, "api": "./py/py_ztzsszyingshi.py"},
+    {"key": "py_yunduoyingshi", "name": "🎬云朵影视", "type": 3, "api": "./py/py_yunduoyingshi.py"},
+    {"key": "py_yunduoshipin", "name": "🎬云朵视频", "type": 3, "api": "./py/py_yunduoshipin.py"},
+    {"key": "py_youkuyingshi", "name": "🎬优酷影视", "type": 3, "api": "./py/py_youkuyingshi.py"},
+    {"key": "py_bajieyingshi", "name": "🎬八戒影视", "type": 3, "api": "./py/py_bajieyingshi.py"},
+    {"key": "py_nongminyingshi", "name": "🎬农民影视", "type": 3, "api": "./py/py_nongminyingshi.py"},
+    {"key": "py_chujianyingshi", "name": "🎬初见影视", "type": 3, "api": "./py/py_chujianyingshi.py"},
+    {"key": "py_juxiafan4kyingshi", "name": "🎬剧下饭4K影视", "type": 3, "api": "./py/py_juxiafan4kyingshi.py"},
+    {"key": "py_changzhangyingshi", "name": "🎬厂长影视", "type": 3, "api": "./py/py_changzhangyingshi.py"},
+    {"key": "py_didayingshi", "name": "🎬嘀嗒影视", "type": 3, "api": "./py/py_didayingshi.py"},
+    {"key": "py_xiariyingyuan", "name": "🎬夏日影院", "type": 3, "api": "./py/py_xiariyingyuan.py"},
+    {"key": "py_duonaoyingyuan", "name": "🎬多瑙影院", "type": 3, "api": "./py/py_duonaoyingyuan.py"},
+    {"key": "py_haojuyingshi", "name": "🎬好剧影视", "type": 3, "api": "./py/py_haojuyingshi.py"},
+    {"key": "py_shanshuiyingyuan", "name": "🎬山水影院", "type": 3, "api": "./py/py_shanshuiyingyuan.py"},
+    {"key": "py_kaixinyingyuan", "name": "🎬开心影院", "type": 3, "api": "./py/py_kaixinyingyuan.py"},
+    {"key": "py_zhizhiyingshi", "name": "🎬枝枝影视", "type": 3, "api": "./py/py_zhizhiyingshi.py"},
+    {"key": "py_yongleshipin", "name": "🎬永乐视频", "type": 3, "api": "./py/py_yongleshipin.py"},
+    {"key": "py_aiqiyiyingshi", "name": "🎬爱奇艺影视", "type": 3, "api": "./py/py_aiqiyiyingshi.py"},
+    {"key": "py_dianyingxia", "name": "🎬电影侠", "type": 3, "api": "./py/py_dianyingxia.py"},
+    {"key": "py_wangfeitv", "name": "🎬网飞TV", "type": 3, "api": "./py/py_wangfeitv.py"},
+    {"key": "py_tengxunshipin", "name": "🎬腾讯视频", "type": 3, "api": "./py/py_tengxunshipin.py"},
+    {"key": "py_liangziziyuan", "name": "🎬量子资源", "type": 3, "api": "./py/py_liangziziyuan.py"},
+    {"key": "py_qingwayingyuan", "name": "🎬青蛙影院", "type": 3, "api": "./py/py_qingwayingyuan.py"},
+    {"key": "py_hanxiaoquan", "name": "🎬韩小圈", "type": 3, "api": "./py/py_hanxiaoquan.py"},
+    {"key": "py_feiniuyingshi", "name": "🎬飞牛影视", "type": 3, "api": "./py/py_feiniuyingshi.py"},
+    {"key": "py_99duanjuwang", "name": "📱99短剧网", "type": 3, "api": "./py/py_99duanjuwang.py"},
+    {"key": "py_pynew012zaixianduanj", "name": "📱在线短剧", "type": 3, "api": "./py/py_pynew012zaixianduanj.py"},
+    {"key": "py_pynew015yingkeduanju", "name": "📱映刻短剧", "type": 3, "api": "./py/py_pynew015yingkeduanju.py"},
+    {"key": "py_pynew024xifuduanju", "name": "📱喜福短剧", "type": 3, "api": "./py/py_pynew024xifuduanju.py"},
+    {"key": "py_pynew025wushengduanj", "name": "📱悟圣短剧", "type": 3, "api": "./py/py_pynew025wushengduanj.py"},
+    {"key": "py_pynew030shuabutingdu", "name": "📱刷不停短剧", "type": 3, "api": "./py/py_pynew030shuabutingdu.py"},
+    {"key": "py_pynew033shiliuduanju", "name": "📱石榴短剧", "type": 3, "api": "./py/py_pynew033shiliuduanju.py"},
+    {"key": "py_pynew051kaixinduanju", "name": "📱开心短剧", "type": 3, "api": "./py/py_pynew051kaixinduanju.py"},
+    {"key": "py_pynew058hongdouduanj", "name": "📱红豆短剧", "type": 3, "api": "./py/py_pynew058hongdouduanj.py"},
+    {"key": "py_pynew074duanjudaquan", "name": "📱短剧大全", "type": 3, "api": "./py/py_pynew074duanjudaquan.py"},
+    {"key": "py_pynew076dusheduanju", "name": "📱毒舌短剧", "type": 3, "api": "./py/py_pynew076dusheduanju.py"},
+    {"key": "py_pynew085daxiangduanj", "name": "📱大象短剧", "type": 3, "api": "./py/py_pynew085daxiangduanj.py"},
+    {"key": "py_pynew093canchiduanju", "name": "📱蚕驰短剧", "type": 3, "api": "./py/py_pynew093canchiduanju.py"},
+    {"key": "py_wuwuduanju", "name": "📱五五短剧", "type": 3, "api": "./py/py_wuwuduanju.py"},
+    {"key": "py_wuwuduanju2", "name": "📱五五短剧2", "type": 3, "api": "./py/py_wuwuduanju2.py"},
+    {"key": "py_guoguoduanju", "name": "📱果果短剧", "type": 3, "api": "./py/py_guoguoduanju.py"},
+    {"key": "py_hemaduanju", "name": "📱河马短剧", "type": 3, "api": "./py/py_hemaduanju.py"},
+    {"key": "py_hemaduanju_2", "name": "📱河马短剧", "type": 3, "api": "./py/py_hemaduanju_2.py"},
+    {"key": "py_niuniuduanju", "name": "📱牛牛短剧", "type": 3, "api": "./py/py_niuniuduanju.py"},
+    {"key": "py_duanjubashi", "name": "📱短剧巴士", "type": 3, "api": "./py/py_duanjubashi.py"},
+    {"key": "py_duanjuwang", "name": "📱短剧网", "type": 3, "api": "./py/py_duanjuwang.py"},
+    {"key": "py_dijiuduanjuwang", "name": "📱第九短剧网", "type": 3, "api": "./py/py_dijiuduanjuwang.py"},
+    {"key": "py_pynew003mifundongman", "name": "🎌MiFun动漫", "type": 3, "api": "./py/py_pynew003mifundongman.py"},
+    {"key": "py_pynew017yingzhikongd", "name": "🎌樱之空动漫", "type": 3, "api": "./py/py_pynew017yingzhikongd.py"},
+    {"key": "py_pynew059heimaodongma", "name": "🎌黑猫动漫", "type": 3, "api": "./py/py_pynew059heimaodongma.py"},
+    {"key": "py_pynew066gongheguodon", "name": "🎌共和国动漫", "type": 3, "api": "./py/py_pynew066gongheguodon.py"},
+    {"key": "py_dongmanbashi", "name": "🎌动漫巴士", "type": 3, "api": "./py/py_dongmanbashi.py"},
+    {"key": "py_hamiguadongman", "name": "🎌哈密瓜动漫", "type": 3, "api": "./py/py_hamiguadongman.py"},
+    {"key": "py_qingkongciyuan", "name": "🎌青空次元", "type": 3, "api": "./py/py_qingkongciyuan.py"},
+    {"key": "py_djyouyou2", "name": "🎵DJ呦呦2", "type": 3, "api": "./py/py_djyouyou2.py"},
+    {"key": "py_djyouyouyinyue", "name": "🎵DJ呦呦音乐", "type": 3, "api": "./py/py_djyouyouyinyue.py"},
+    {"key": "py_pynew004djyouyou", "name": "🎵DJ呦呦", "type": 3, "api": "./py/py_pynew004djyouyou.py"},
+    {"key": "py_pynew016yingziyinyue", "name": "🎵影子音乐", "type": 3, "api": "./py/py_pynew016yingziyinyue.py"},
+    {"key": "py_pynew069fengyeyinyue", "name": "🎵枫叶音乐", "type": 3, "api": "./py/py_pynew069fengyeyinyue.py"},
+    {"key": "py_qianqianyinyue", "name": "🎵千千音乐", "type": 3, "api": "./py/py_qianqianyinyue.py"},
+    {"key": "py_tingyoufm", "name": "🎵听友FM", "type": 3, "api": "./py/py_tingyoufm.py"},
+    {"key": "py_yuetingba", "name": "🎵悦听吧", "type": 3, "api": "./py/py_yuetingba.py"},
+    {"key": "py_aitingyinyue", "name": "🎵爱听音乐", "type": 3, "api": "./py/py_aitingyinyue.py"},
+    {"key": "py_kuwoyinyue", "name": "🎵酷我音乐", "type": 3, "api": "./py/py_kuwoyinyue.py"},
+    {"key": "py_yinyuejuhe", "name": "🎵音乐聚合", "type": 3, "api": "./py/py_yinyuejuhe.py"},
+    {"key": "py_pynew019xiongmaozhib", "name": "📺熊猫直播", "type": 3, "api": "./py/py_pynew019xiongmaozhib.py"},
+    {"key": "py_pynew054juhezhibo", "name": "📺聚合直播", "type": 3, "api": "./py/py_pynew054juhezhibo.py"},
+    {"key": "py_pynew095bilizhibo", "name": "📺哔哩直播", "type": 3, "api": "./py/py_pynew095bilizhibo.py"},
+    {"key": "py_kafeizhibo", "name": "📺咖啡直播", "type": 3, "api": "./py/py_kafeizhibo.py"}
   ]
 }
